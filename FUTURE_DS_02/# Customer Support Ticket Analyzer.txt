@@ -1,0 +1,73 @@
+# Customer Support Ticket Analyzer
+
+A data science project to analyze customer support tickets and identify frequently reported issues using Natural Language Processing (NLP). The goal is to suggest improvements for faster and more effective customer service.
+
+## Project Structure
+
+customer-support-ticket-analysis/
+│
+├── customer_support_tickets.csv     # Raw data file
+├── future_ds_task2.py               # Analysis script (can be run in Colab)
+├── ticket_analysis_output.csv       # Output data with cleaned text (generated)
+├── README.md                        # Project documentation
+├── requirements.txt                 # Required Python libraries
+
+## Problem Statement
+
+Businesses receive thousands of support requests. This project helps categorize, analyze, and visualize ticket data to:
+- Identify recurring issues
+- Highlight slow-to-respond ticket types
+- Recommend automation opportunities
+
+## Tools & Technologies
+
+- Python
+- Pandas for data handling
+- NLTK for NLP
+- Matplotlib for visualization
+- Google Colab (recommended)
+
+## Dataset
+
+File: customer_support_tickets.csv  
+Fields Include:
+- Ticket ID, Type, Description
+- Customer demographics
+- Time to resolution
+- Satisfaction ratings
+
+## Features
+
+- Clean and tokenize ticket descriptions
+- Identify most frequent keywords/issues
+- Group and visualize issue types
+- Compute average response and resolution times
+- Recommend process improvements
+
+## How to Run
+
+1. Clone this repo:
+   git clone https://github.com/yourusername/customer-support-ticket-analysis.git
+   cd customer-support-ticket-analysis
+
+2. Install dependencies:
+   pip install -r requirements.txt
+
+3. Run in Google Colab or locally:
+   python future_ds_task2.py
+
+4. Upload `customer_support_tickets.csv` when prompted (if in Colab)
+
+## Recommendations (from analysis)
+
+- Automate replies for high-frequency topics (e.g., password issues).
+- Update help center articles for common problems.
+- Route tickets by keyword/category to reduce response time.
+
+## License
+
+MIT License - feel free to use and modify for your own projects.
+
+## Contributors
+
+- Your Name ([@yourgithub](https://github.com/yourgithub))
